@@ -3,7 +3,6 @@ import React from 'react';
 import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
 import { CTA, Brand, Navbar } from './components';
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 
 const App = () => {
