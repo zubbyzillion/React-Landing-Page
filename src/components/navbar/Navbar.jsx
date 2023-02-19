@@ -16,6 +16,7 @@ const Menu = () => (
 )
 
 const Navbar = () => {
+  // Nav bar Menu
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
