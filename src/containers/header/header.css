@@ -23,8 +23,7 @@
 
 .gpt3__header-content p {
     font-family: var(--font-family);
-    font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     color: var(--color-text);
@@ -47,7 +46,7 @@
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 20px;
-    line-height: 26px;
+    line-height: 28px;
     background: var(--color-footer);
     border: 2px solid var(--color-footer);
     padding: 0 1rem;
@@ -63,15 +62,15 @@
     width: 100%;
     min-height: 50px;
     font-family: var(--font-family);
-    font-weight: bold;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 27px;
+    line-height: 28px;
     background: #FF4820;
     border: 2px solid #ff4820;
+    padding: 0 1rem;
     color: #ffffff;
     cursor: pointer;
     outline: none;
-    padding: 0 1rem;
     border: none;
 
     border-top-right-radius: 5px;
@@ -83,6 +82,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-direction: row;
 
     margin-top: 2rem;
 }
@@ -125,12 +125,12 @@
 }
 
 @media screen and (max-width: 650px) {
-    .gpt3__header h1 {
+    .gpt3__header-content h1 {
         font-size: 48px;
         line-height: 60px;
     }
 
-    .gpt3__header p {
+    .gpt3__header-content p {
         font-size: 16px;
         line-height: 24px;
     }
@@ -143,26 +143,26 @@
         margin: 0;
     }
 
-    .gpt3__header-content__people input,
-    .gpt3__header-content__people button {
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
         font-size: 16px;
         line-height: 24px;
     }
 }
 
 @media screen and (max-width: 490px) {
-    .gpt3__header h1 {
+    .gpt3__header-content h1 {
         font-size: 36px;
         line-height: 48px;
     }
 
-    .gpt3__header p {
+    .gpt3__header-content p {
         font-size: 14px;
         line-height: 24px;
     }
 
-    .gpt3__header-content__people input,
-    .gpt3__header-content__people button {
+    .gpt3__header-content__input input,
+    .gpt3__header-content__input button {
         font-size: 12px;
         line-height: 16px;
     }
