@@ -3,6 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .gpt3__brand div {
