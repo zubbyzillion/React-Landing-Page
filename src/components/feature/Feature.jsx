@@ -15,4 +15,4 @@ const Feature = ({ title, text }) => {
   )
 }
 
-export default Feature
+export default Feature;
