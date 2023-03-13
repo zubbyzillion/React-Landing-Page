@@ -1,4 +1,6 @@
 import React from 'react';
+import { Article } from '../../components/';
+import { blog01, blog02, blog03, blog04, blog05 } from './imports';
 import './blog.css';
 
 const Blog = () => {
@@ -8,7 +10,15 @@ const Blog = () => {
           <h1 className="gradient__text">A lot is happening, <br /> We are blogging about it.</h1>
         </div>
         <div className="gpt3__blog-container">
-          <div className="gpt3__blog-container__groupA"></div>
+          <div className="gpt3__blog-container__groupA">
+            <Article imgUrl={blog01} />
+          </div>
+          <div className="gpt3__blog-container__groupB">
+            <Article imgUrl={blog02} />
+            <Article imgUrl={blog03} />
+            <Article imgUrl={blog04} />
+            <Article imgUrl={blog05} />
+          </div>
         </div>
     </div>
   )
