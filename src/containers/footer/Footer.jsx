@@ -5,8 +5,9 @@ import gpt3Logo from '../../assets/logo.svg';
 const Footer = () => {
   return (
     <div className="gpt3__footer section__padding">
-        <div className="gpt3__footer-heading"></div>
-        <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+        <div className="gpt3__footer-heading">
+          <h1 className="gradient__text">Do you want to step in to the future before others</h1>
+        </div>
 
         <div className="gpt3__footer-btn">
           <p>Request Early Access</p>
@@ -39,8 +40,8 @@ const Footer = () => {
         </div>
 
         <div className="gpt3__footer-copyright">
-          <p>@2021 GPT-3. All rights reserved.</p>
-          <p>Designed by Beluonwu-Ogbo Nzubechukwu .P for a project/educational purpose.</p>
+          <p>@2021 GPT-3. All rights reserved.</p> <br />
+          <p>Developed by Beluonwu-Ogbo Nzubechukwu .P <br /> for project/educational purpose <br /> from a YT channel.</p>
         </div>
     </div>
   )
